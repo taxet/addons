@@ -9,7 +9,7 @@ Share the blog in myopera to sina weibo.
 
 ###zombieSkew:
 
-分享A岛（[Acfun匿名版]:(http://h.acfun.tv)）里面的丧尸串到其他社交网络。
+分享A岛（[Acfun匿名版](http://h.acfun.tv)）里面的丧尸串到其他社交网络。
 
 Share the posts in acfun anonymous bulletin board(http://h.acfun.tv) to some SNS website.
 
