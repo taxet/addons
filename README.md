@@ -6,13 +6,13 @@
 Share the blog in myopera to sina weibo.
 
 +###zombieSkew:
-分享A岛（[http://h.acfun.tv]:http://h.acfun.tv）里面的丧尸串到其他社交网络。
+分享A岛（[http://h.acfun.tv]:(http://h.acfun.tv)）里面的丧尸串到其他社交网络。
 Share the posts in acfun anonymous bulletin board(http://h.acfun.tv) to some SNS website.
 
 design by 人畜无害小百合
 blog：http://my.opera.com/taxet/
 
 其他的联系方式：
-新浪微博 [@丧尸百合兽]:http://weibo.com/taxet
-twitter: [@taxetBHS]:https://www.twitter.com/taxetBHS
+新浪微博 [@丧尸百合兽]:(http://weibo.com/taxet)
+twitter: [@taxetBHS]:(https://www.twitter.com/taxetBHS)
 E-MAIL: taxet@myopera.com
