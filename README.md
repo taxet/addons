@@ -12,10 +12,10 @@ Share the blog in myopera to sina weibo.
 分享A岛（[Acfun匿名版]:(http://h.acfun.tv)）里面的丧尸串到其他社交网络。
 
 Share the posts in acfun anonymous bulletin board(http://h.acfun.tv) to some SNS website.
-
-
-
-_design by 人畜无害小百合(blog：http://my.opera.com/taxet/) _
+>
+>
+>
+_design by 人畜无害小百合(blog：http://my.opera.com/taxet/)_
 
 #####其他的联系方式：
 
