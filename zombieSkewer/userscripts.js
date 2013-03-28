@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        小百合教你如何分享丧尸岛的丧尸串
 // @namespace   http://my.opera.com/taxet
-// @version     0.2
+// @version     0.8
 // @description 把丧尸岛上面奇怪的内容分享到微博，推她等正常的地方。
 // @match       http://h.acfun.tv/*
 // ==/UserScript==
@@ -12,11 +12,20 @@ for(var i = 0; i < posts.length; i++){
 	//delete space
 	mess.replace(/(^\s*)|(\s*$)/g, "");
 	//delete html format
-	mess.replace(/^<.*>$/g, "");
+	//mess.replace(/^<.*>$/g, "");
+	mess.replace(/<br\/>/g,"");
 	if(mess.length>100)
 		mess.substr(0,100)+"……";
 	mess += " #丧尸岛的丧尸串#";
-	var urlAddr = "http://h.acfun.tv/t/";
+	
+	//get url of the post
+	var urlAddr = posts[i].previousSibling;
+	while(urlAddr.nodeType != 1) urlAddr = urlAddr.previousSibling;
+	if(urlAddr.parentNode["id"] == "right_content"){ 
+		urlAddr = urlAddr.previousSibling;
+		while(urlAddr.nodeType != 1) urlAddr = urlAddr.previousSibling;
+	}
+	urlAddr = urlAddr.href;
 	var param = {
 		url:urlAddr,
 		type:'3',
