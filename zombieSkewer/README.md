@@ -8,9 +8,16 @@ Zombie Skewer
 Share the posts in acfun anonymous bulletin board(http://h.acfun.tv) to some SNS website.
 
 ###已完成功能 Function Realized
-
++ 获取串的内容和主串的url地址并通过微博发表。
++ Share the content of a post and its main post's url address to weibo.
 
 ###需要改进的内容 More to Do
++ 优化获得串的内容：去除多余的空字符。
++ Modify the content of a post: remove duplicate blank words.
++ 优化获得串的内容：去除HTML样式
++ Modify the content of a post: remove HTML content.
++ 修改弹出窗口的样式
++ Mdify the syle of the sharing window.
 
 ***
 
