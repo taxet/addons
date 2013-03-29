@@ -6,14 +6,15 @@
 // @match       http://h.acfun.tv/*
 // ==/UserScript==
 
+(function(){
 var posts = document.getElementsByTagName("blockquote");
 for(var i = 0; i < posts.length; i++){
-	var mess = posts[i].innerHTML;
+	var mess = posts[i].innerText;
 	//delete space
-	mess.replace(/(^\s*)|(\s*$)/g, "");
+	mess = mess.replace(/(^\s*)|(\s*$)/g, " ");
 	//delete html format
 	//mess.replace(/^<.*>$/g, "");
-	mess.replace(/<br\/>/g,"");
+	//mess.replace(/<br>/g,"");
 	if(mess.length>100)
 		mess.substr(0,100)+"……";
 	mess += " #丧尸岛的丧尸串#";
@@ -45,3 +46,4 @@ for(var i = 0; i < posts.length; i++){
 	posts[i].innerHTML = posts[i].innerHTML + 
 		' <a href="http://service.weibo.com/share/share.php?' + temp.join('&') + '" target="_blank">#微博</a>'
 }
+})();
