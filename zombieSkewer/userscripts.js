@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        小百合教你如何分享丧尸岛的丧尸串
 // @namespace   http://my.opera.com/taxet
-// @version     0.8
+// @version     0.9
 // @description 把丧尸岛上面奇怪的内容分享到微博，推她等正常的地方。
 // @match       http://h.acfun.tv/*
 // ==/UserScript==
