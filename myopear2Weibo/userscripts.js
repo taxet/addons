@@ -6,6 +6,7 @@
 // @match       http://my.opera.com/*
 // ==/UserScript==
 
+(function(){
 var shareUl = document.getElementById("share");
 //var blogName = document.getElementById("top2").firstChild.firstChild.innerHTML;
 //blogName.substring(0,blogName.index("<a"));
@@ -29,3 +30,4 @@ for( var p in param ){
 var weiboLi = document.createElement("li");
 weiboLi.innerHTML = '<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'" style="margin:6px 0 0 8px"></iframe>'
 shareUl.appendChild(weiboLi);
+})();
