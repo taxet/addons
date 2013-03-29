@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        id="RenChuWuHaiXiaoBaiHe_ZombiwSkewer_dmzbz"
+		version="0.9">
+	<name xml:lang="en">ZombieSkewer</name>
+	<name xml:lang="zh">小百合教你如何分享丧尸岛里面的丧尸串</name>
+	<description xml:lang="en">Share the posts in acfun anonymous bulletin board(http://h.acfun.tv) to some SNS website.</description>
+	<description xml:lang="zh">分享A岛（Acfun匿名版）里面的丧尸串到其他社交网络。</description>	
+	<author href="http://my.opera.com/taxet" email="taxet@myopera.com">人畜无害小百合</author>
+	<icon src="icons/icon.png"/>
+	<access origin="http://my.opera.com/*" subdomains="true"/>
+</widget>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        id="RenChuWuHaiXiaoBaiHe_myopera2Weibo_dmzbz"
+		version="0.9">
+	<name xml:lang="en">myOpera2Weibo</name>
+	<name xml:lang="zh">myOpera微博同步工具</name>
+	<description xml:lang="en">A script that shares the blog in myopera to sina weibo.</description>
+	<description xml:lang="zh">分享myopera里的博客文章到微博的脚本。</description>	
+	<author href="http://my.opera.com/taxet" email="taxet@myopera.com">人畜无害小百合</author>
+	<icon src="images/icon.png"/>
+	<access origin="http://my.opera.com/*" subdomains="true"/>
+</widget>
