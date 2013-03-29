@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "小百合教你如何分享丧尸岛里面的丧尸串",
+	"description": "分享A岛（Acfun匿名版）里面的丧尸串到其他社交网络。",
+	"version": "0.9",
+	"icons":{
+		"128":"images/icon_128.png"
+	},
+
+	"content_scripts": [ {
+		"js": [ "includes/userscripts.js" ],
+		"matches": [ "http://h.acfun.tv/*" ]
+	}]
+}
