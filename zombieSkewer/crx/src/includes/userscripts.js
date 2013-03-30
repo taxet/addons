@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        小百合教你如何分享丧尸岛的丧尸串
 // @namespace   http://my.opera.com/taxet
-// @version     0.9
+// @version     0.91
 // @description 把丧尸岛上面奇怪的内容分享到微博，推她等正常的地方。
 // @match       http://h.acfun.tv/*
 // ==/UserScript==
@@ -16,7 +16,7 @@ for(var i = 0; i < posts.length; i++){
 	//mess.replace(/^<.*>$/g, "");
 	//mess.replace(/<br>/g,"");
 	if(mess.length>100)
-		mess.substr(0,100)+"……";
+		mess = mess.substr(0,100)+"……";
 	mess += " #丧尸岛的丧尸串#";
 	
 	//get url of the post
