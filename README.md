@@ -15,7 +15,7 @@ Share the posts in acfun anonymous bulletin board(http://h.acfun.tv) to some SNS
 
 ***
 
-_design by 人畜无害小百合(blog：http://my.opera.com/taxet/)_
+_design by [人畜无害小百合](mailto:taxet@myopera.com)(blog：http://my.opera.com/taxet/)_
 
 #####其他的联系方式：
 
@@ -23,4 +23,4 @@ _design by 人畜无害小百合(blog：http://my.opera.com/taxet/)_
 
 twitter: [@taxetBHS](https://www.twitter.com/taxetBHS)
 
-E-MAIL: taxet@myopera.com
+百度贴吧：[百合兽](http://tieba.baidu.com/i/48256854)
